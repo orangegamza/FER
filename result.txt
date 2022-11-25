@@ -1,0 +1,3 @@
+361/361 [==============================] - 100s 277ms/step - loss: 2.9176e-04 - recall: 0.0025
+23/23 [==============================] - 6s 267ms/step - loss: 0.0012 - recall: 0.0020
+final train recall = 0.25 , validation recall = 0.20 , train_loss = 0.00 , validation_loss = 0.00
