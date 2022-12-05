@@ -132,3 +132,42 @@ def category_accuracy():
 	return score / _batch_size
 return recall
 ```
+
+### 참고 문헌
+
+[1] Zhang, Y., Wang, C., & Deng, W. (2021). Relative Uncertainty Learning for
+Facial Expression Recognition.
+Advances in Neural Information Processing
+Systems, 34, 17616-17627.
+[2] Zhang, Y., Wang, C., Ling, X., & Deng, W. (2022). Learn From All: Erasing
+Attention Consistency for Noisy Label Facial Expression Recognition.
+arXiv
+preprint arXiv:2207.10299.
+[3] Chen, S., Wang, J., Chen, Y., Shi, Z., Geng, X., & Rui, Y. (2020). Label
+distribution learning on auxiliary label space graphs for facial expression
+recognition. In
+Proceedings of the IEEE/CVF conference on computer vision
+and pattern recognition (pp. 13984-13993).
+[4] Cubuk, E. D., Zoph, B., Mane, D., Vasudevan, V., & Le, Q. V. (2018).
+Autoaugment: Learning augmentation policies from data.
+arXiv preprint
+arXiv:1805.09501.
+[5] Guo, H., Zheng, K., Fan, X., Yu, H., & Wang, S. (2019). Visual attention
+consistency under image transforms for multi-label image classification. In
+Proceedings of the IEEE/CVF conference on computer vision and pattern
+recognition (pp. 729-739).
+1.
+[6] Du, S., Tao, Y., & Martinez, A. M. (2014). Compound facial expressions of
+emotion.
+Proceedings of the national academy of sciences, 111(15),
+E1454-E1462.
+[7] Ghimire D, Lee J. Geometric Feature-Based Facial Expression Recognition in
+Image Sequences Using Multi-Class AdaBoost and Support Vector Machines.
+Sensors. 2013; 13(6):7714-7734. https://doi.org/10.3390/s130607714
+[8] Geng, X. (2016). Label distribution learning.
+IEEE Transactions on Knowledge
+and Data Engineering, 28(7), 1734-1748.
+[9] Yun, S., Han, D., Oh, S. J., Chun, S., Choe, J., & Yoo, Y. (2019). Cutmix:
+Regularization strategy to train strong classifiers with localizable features. In
+Proceedings of the IEEE/CVF international conference on computer vision
+(pp. 6023-6032)
