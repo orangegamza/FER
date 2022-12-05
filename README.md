@@ -63,6 +63,9 @@ class CustomModel(keras.Model):
 		(...)
 	return {m.name: m.result() for m in self.metrics}
 ```
+Cosine Similarity를 계산하여 다음 Layer로 넘긴다.
+
+
 
 **2. Loss Function**
 
@@ -97,6 +100,8 @@ class NumLoss(tf.keras.losses.Loss) :
 	m = difference_n / _batch_size
 	return m
 ```
+Cosine Similarity Loss를 계산하여 전부 더한다.
+
 
 **3. Word2Vec Implementation**
 
@@ -110,8 +115,6 @@ angry = word2VecModel['angry']
 surprise = word2VecModel['surprise']
 weight = [angry, disgust, fear, happy, neutral, sad, surprise]
 ```
-
-![Untitled]()
 
 **4. Accuracy**
 
@@ -132,6 +135,8 @@ def category_accuracy():
 	return score / _batch_size
 return recall
 ```
+가장 Cosine Similarity가 높은 Prediction과 Y 값 사이의 결과를 비교한다.
+정답일 경우 1을 더해 비율을 구한다.
 
 ### 참고 문헌
 
